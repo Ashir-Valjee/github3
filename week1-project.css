@@ -1,0 +1,80 @@
+* {
+  font-family: sans-serif;
+}
+/* audio::-webkit-media-controls {
+  display: none;
+} */
+header,
+main {
+  text-transform: uppercase;
+}
+body {
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  position: fixed;
+  width: 100%;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: pink;
+}
+.galaxy-container,
+.eclipse-container,
+.landscape-container {
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  height: 100dvh;
+  /* width: 100vw; */
+  position: relative;
+  background-position: center;
+  /* background-image: url(images/galaxy-5803c9f1.jpg); */
+  background-size: cover;
+}
+
+.text-container {
+  border-width: 5px;
+  border-style: solid;
+  border-color: purple;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+}
+.top-title {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+.middle-title {
+  font-size: 2.5rem;
+}
+.read-more-link {
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  border: 2px solid black;
+  max-width: 200px;
+  font-size: 0.85rem;
+  padding: 1rem 2rem;
+}
+
+footer {
+  border-width: 5px;
+  border-style: solid;
+  border-color: pink;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 5dvh;
+}
